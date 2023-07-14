@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border-radius: 0;
+    border: solid 0;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.white-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin: 15px auto;
+}
+
+.inside-container {
+    width: 85%;
+    padding: 20px 0px;
+}
+
+.header {
+    display: flex;
+}
+
+.header div {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+}
+
+.home button a {
+    color: white;
+    background: #000;
+    padding: 7px;
+}
+
+.menu div {
+    text-align: center;
+}
+
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.content {
+    width: 50%;
+}
+
+.big-girl {
+    width: 50%;
+}
+
+#big-text {
+    font-weight: 500;
+    font-size: 55px;
+    margin-top: 70px;
+}
+
+#small-text {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0px 25px 0px;
+}
+
+.content-header button a {
+    color: white;
+    background-color: #009AEE;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.three-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.width {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.luctus,
+.dolor,
+.volutpat {
+    width: 33.333333333%;
+    color: white;
+}
+
+.luctus-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.luctus-content {
+    padding: 0px 2px 10px 20px;
+    color: rgb(69, 66, 66);
+    font-size: 15px;
+    line-height: 26px;
+}
+
+#luctus-header {
+    font-size: 23px;
+}
+
+.luctus-btn a {
+    color: white;
+    background: #009AEE;
+    padding: 8px;
+    border-radius: 5%;
+}
+
+.luctus-btn {
+    margin-top: 24px;
+}
+
+.present-black {
+    background-color: #131313;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.present-container {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.present-img {
+    width: 67%;
+    padding: 10px;
+    color: white;
+}
+
+.present-header {
+    font-size: 40px;
+}
+
+.list {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 25px 0px 40px 15px;
+}
+
+.img-top {
+    margin-top: 20px;
+}
+
+.present-content {
+    padding: 15px 0px 10px 0px;
+    line-height: 22px;
+    color: rgb(69, 66, 66);
+}
+
+.list1,
+.list2 {
+    width: 50%;
+}
+
+.list-header {
+    font-size: 23px;
+}
+
+.list ul li {
+    line-height: 50px;
+    list-style-type: disc;
+}
+
+.list hr {
+    width: 90%;
+}
+
+.hr hr {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.ipsum-header {
+    font-size: 27px;
+    padding-top: 10px;
+}
+
+.ipsum1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.ipsum1-img {
+    width: 30%;
+}
+
+.ipsum1-content {
+    width: 70%;
+    padding-left: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.ipsum-hr {
+    border: solid;
+}
+
+.tristi-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.left-container,
+.right-container {
+    width: 50%;
+    height: 200px;
+}
+
+.left-header {
+    font-size: 30px;
+}
+
+.left-content {
+    line-height: 25px;
+    padding: 25px 4px 25px 0px;
+    font-size: 16px;
+    color: gray;
+}
+
+.Etiam {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    padding-left: 10px;
+}
+
+.tristi-btn button a {
+    color: white;
+    background: #009AEE;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5%;
+}
+
+.integer-content {
+    font-size: 16px;
+    color: grey;
+    padding: 40px 0px 40px 0px;
+    line-height: 25px;
+}
+
+.right-header1 {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.right-header2 {
+    font-size: 18px;
+    padding: 25px 0px 25px 15px;
+}
+
+.right-list {
+    padding-left: 30px;
+    line-height: 30px;
+    color: gray;
+}
+
+.footer {
+    padding: 40px;
+    color: gray;
+    font-size: 17px;
+}
+
+.copy {
+    border-right: solid;
+    padding-right: 10px;
+}
+
+.design {
+    padding-left: 10px;
+}
